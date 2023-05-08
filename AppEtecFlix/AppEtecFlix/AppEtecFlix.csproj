@@ -13,17 +13,17 @@
   <ItemGroup>
     <None Remove="Img\EtecFlix.png" />
     <None Remove="Posters\ACabana.jpg" />
-    <None Remove="Posters\AMaldicaoDeChucky.jpg" />
+    <None Remove="Posters\amaldicaodechucky.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Img\EtecFlix.png">
+    <EmbeddedResource Include="Img\etecflix.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Posters\ACabana.jpg">
+    <EmbeddedResource Include="Posters\acabana.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Posters\AMaldicaoDeChucky.jpg">
+    <EmbeddedResource Include="Posters\amaldicaodechucky.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

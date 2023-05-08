@@ -18,15 +18,6 @@ namespace AppEtecFlix
             NavigationPage.SetHasNavigationBar(this, false);
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            try
-            {
-                Navigation.PushAsync(new Aventura());
-            } catch(Exception ex)
-            {
-                DisplayAlert("Ops", ex.Message, "OK");
-            }
-        }
+
     }
 }
