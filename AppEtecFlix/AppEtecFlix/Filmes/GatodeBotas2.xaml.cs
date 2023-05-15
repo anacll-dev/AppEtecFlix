@@ -15,6 +15,10 @@ namespace AppEtecFlix.Filmes
         public GatodeBotas2()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+
+            logo.Source = ImageSource.FromResource("AppEtecFlix.Img.etecflix.png");
+            poster.Source = ImageSource.FromResource("AppEtecFlix.Posters.gatodebotas2.png");
         }
     }
 }

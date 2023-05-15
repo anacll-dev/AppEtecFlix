@@ -15,9 +15,57 @@ namespace AppEtecFlix
         {
             InitializeComponent();
 
+            logo.Source = ImageSource.FromResource("AppEtecFlix.Img.etecflix.png");
+
             NavigationPage.SetHasNavigationBar(this, false);
         }
 
+        private async void Btn_Open_Aventura(object sender, EventArgs e)
+        {
+            try
+            {
+                await Navigation.PushAsync(new Aventura());
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops, ocorreu um erro...", ex.Message, "Ok");
+            }
+        }
 
+        private async void Btn_Open_Comedia(object sender, EventArgs e)
+        {
+            try
+            {
+                await Navigation.PushAsync(new Comedia());
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops, ocorreu um erro...", ex.Message, "Ok");
+            }
+        }
+
+        private async void Btn_Open_Drama(object sender, EventArgs e)
+        {
+            try
+            {
+                await Navigation.PushAsync(new Drama());
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops, ocorreu um erro...", ex.Message, "Ok");
+            }
+        }
+
+        private async void Btn_Open_Terror(object sender, EventArgs e)
+        {
+            try
+            {
+                await Navigation.PushAsync(new Terror());
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops, ocorreu um erro...", ex.Message, "Ok");
+            }
+        }
     }
 }
