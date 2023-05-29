@@ -14,6 +14,16 @@
     <None Remove="Img\EtecFlix.png" />
     <None Remove="Posters\ACabana.jpg" />
     <None Remove="Posters\amaldicaodechucky.jpg" />
+    <None Remove="Posters\americanpie.jpg" />
+    <None Remove="Posters\aquaman.jpg" />
+    <None Remove="Posters\AsBranquelas.jpg" />
+    <None Remove="Posters\avatar.jpg" />
+    <None Remove="Posters\Extraordinario.jpg" />
+    <None Remove="Posters\gatodebotas2.jpg" />
+    <None Remove="Posters\GenteGrande.jpg" />
+    <None Remove="Posters\MeninoQueDescobriuVento.jpg" />
+    <None Remove="Posters\Panico5.jpg" />
+    <None Remove="Posters\Terrifier.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +34,36 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Posters\amaldicaodechucky.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Posters\americanpie.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Posters\aquaman.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Posters\asbranquelas.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Posters\avatar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Posters\extraordinario.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Posters\gatodebotas2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Posters\gentegrande.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Posters\meninoquedescobriuvento.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Posters\panico5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Posters\terrifier.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

@@ -21,9 +21,9 @@ namespace AppEtecFlix.Categorias
 
             logo.Source = ImageSource.FromResource("AppEtecFlix.Img.etecflix.png");
 
-            btnGatoDeBotas2.Source = ImageSource.FromResource("AppEtecFlix.Poster.gatodebotas2.png");
-            btnAquaman.Source = ImageSource.FromResource("AppEtecFlix.Poster.aquaman.png");
-            btnAvatar.Source = ImageSource.FromResource("AppEtecFlix.Poster.avatar.png");
+            btnGatoDeBotas2.Source = ImageSource.FromResource("AppEtecFlix.Posters.gatodebotas2.jpg");
+            btnAquaman.Source = ImageSource.FromResource("AppEtecFlix.Posters.aquaman.jpg");
+            btnAvatar.Source = ImageSource.FromResource("AppEtecFlix.Posters.avatar.jpg");
 
             
         }
