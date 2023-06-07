@@ -1,12 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppEtecFlix.Categorias.Comedia">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="AppEtecFlix.Categorias.Comedia"
+             Title="EtecFlix - Comédia"
+             BackgroundColor="#2f2f30">
+
+    <StackLayout Orientation="Vertical">
+        <Image x:Name="logo" Style="{ StaticResource LogoNaListaDePosters }" />
+        <Label Text="COMEDIA" Style="{ StaticResource LabelTextVermelho}" />
+
+        <ScrollView>
+            <Grid Padding="5">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="300"/>
+                    <RowDefinition Height="300"/>
+                    <RowDefinition Height="300"/>
+                </Grid.RowDefinitions>
+
+                <ImageButton Grid.Row="0" Grid.Column="0"
+                             x:Name="btnAsBranquelas" Style="{ StaticResource ButtonPosters }"
+                             Clicked="Btn_Open_AsBranquelas"/>
+
+                <ImageButton Grid.Row="0" Grid.Column="1"
+                             x:Name="btnAmericanPie" Style="{ StaticResource ButtonPosters }"
+                             Clicked="Btn_Open_AmericanPie"/>
+
+                <ImageButton Grid.Row="1" Grid.Column="0"
+                             x:Name="btnGenteGrande" Style="{ StaticResource ButtonPosters }"
+                             Clicked="Btn_Open_GenteGrande"/>
+
+            </Grid>
+
+        </ScrollView>
+    </StackLayout>
 </ContentPage>
