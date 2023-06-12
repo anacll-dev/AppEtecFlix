@@ -44,7 +44,7 @@
                             <Label Text="American Pie" Style="{ StaticResource LabelTextBranco }"/>
                             <Label Text="ANO DE LANÇAMENTO" Style="{ StaticResource LabelTextVermelho }"/>
                             <Label Text="1 de agosto de 2001" Style="{ StaticResource LabelTextBranco }"/>
-                            <Label Text="DIREÇÂO" Style="{ StaticResource LabelTextVermelho }"/>
+                            <Label Text="DIREÇÃO" Style="{ StaticResource LabelTextVermelho }"/>
                             <Label Text="Jesse Dylan" Style="{ StaticResource LabelTextBranco }"/>
                         </StackLayout>
 

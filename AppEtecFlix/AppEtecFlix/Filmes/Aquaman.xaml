@@ -44,7 +44,7 @@
                             <Label Text="Aquaman" Style="{ StaticResource LabelTextBranco }"/>
                             <Label Text="ANO DE LANÇAMENTO" Style="{ StaticResource LabelTextVermelho }"/>
                             <Label Text="13 de dezembro de 2018" Style="{ StaticResource LabelTextBranco }"/>
-                            <Label Text="DIREÇÂO" Style="{ StaticResource LabelTextVermelho }"/>
+                            <Label Text="DIREÇÃO" Style="{ StaticResource LabelTextVermelho }"/>
                             <Label Text=" James Wan" Style="{ StaticResource LabelTextBranco }"/>
                         </StackLayout>
 

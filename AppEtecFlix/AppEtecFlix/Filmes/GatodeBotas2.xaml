@@ -44,7 +44,7 @@
                             <Label Text="Gato de Botas 2" Style="{ StaticResource LabelTextBranco }"/>
                             <Label Text="ANO DE LANÇAMENTO" Style="{ StaticResource LabelTextVermelho }"/>
                             <Label Text="5 de janeiro de 2023" Style="{ StaticResource LabelTextBranco }"/>
-                            <Label Text="DIREÇÂO" Style="{ StaticResource LabelTextVermelho }"/>
+                            <Label Text="DIREÇÃO" Style="{ StaticResource LabelTextVermelho }"/>
                             <Label Text="Joel Crawford" Style="{ StaticResource LabelTextBranco }"/>
                         </StackLayout>
 

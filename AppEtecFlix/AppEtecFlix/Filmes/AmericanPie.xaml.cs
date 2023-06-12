@@ -18,7 +18,7 @@ namespace AppEtecFlix.Filmes
             NavigationPage.SetHasNavigationBar(this, false);
 
             logo.Source = ImageSource.FromResource("AppEtecFlix.Img.etecflix.png");
-            poster.Source = ImageSource.FromResource("AppEtecFlix.Posters.asbranquelas.jpg");
+            poster.Source = ImageSource.FromResource("AppEtecFlix.Posters.americanpie.jpg");
 
             var htmlSource = new HtmlWebViewSource();
             htmlSource.Html = @"<iframe width='560' height='315' 

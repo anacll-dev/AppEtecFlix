@@ -44,7 +44,7 @@
                             <Label Text="As Branquelas" Style="{ StaticResource LabelTextBranco }"/>
                             <Label Text="ANO DE LANÇAMENTO" Style="{ StaticResource LabelTextVermelho }"/>
                             <Label Text="27 de agosto de 2004" Style="{ StaticResource LabelTextBranco }"/>
-                            <Label Text="DIREÇÂO" Style="{ StaticResource LabelTextVermelho }"/>
+                            <Label Text="DIREÇÃO" Style="{ StaticResource LabelTextVermelho }"/>
                             <Label Text="Keenen Ivory Wayans" Style="{ StaticResource LabelTextBranco }"/>
                         </StackLayout>
 

@@ -1,12 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppEtecFlix.Filmes.MeninoQueDescobriuVento">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="AppEtecFlix.Filmes.MeninoQueDescobriuVento"
+             Title="EtecFlix - O Menino Que Descobriu o Vento "
+             BackgroundColor="#2f2f30">
+
+    <StackLayout Orientation="Vertical">
+        <Image x:Name="logo" Style="{ StaticResource LogoNoFilme}"/>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <WebView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                     x:Name="visualizador"
+                     VerticalOptions="FillAndExpand"
+                     BackgroundColor="#2f2f30"
+                     Source="https://www.youtube.com/embed/OBprnlpM744"/>
+
+            <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+                <ScrollView>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="300"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Image x:Name="poster" Grid.Row="0" Grid.Column="0" Aspect="AspectFill"/>
+
+                        <StackLayout Grid.Row="0" Grid.Column="1" VerticalOptions="Center">
+                            <Label Text="TÍTULO" Style="{ StaticResource LabelTextVermelho }"/>
+                            <Label Text="O Menino Que Descobriu o Vento" Style="{ StaticResource LabelTextBranco }"/>
+                            <Label Text="ANO DE LANÇAMENTO" Style="{ StaticResource LabelTextVermelho }"/>
+                            <Label Text="25 de janeiro de 2019" Style="{ StaticResource LabelTextBranco }"/>
+                            <Label Text="DIREÇÃO" Style="{ StaticResource LabelTextVermelho }"/>
+                            <Label Text="Chiwetel Ejiofor" Style="{ StaticResource LabelTextBranco }"/>
+                        </StackLayout>
+
+                        <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Padding="10">
+                            <Label Text="SINOPSE" Style="{ StaticResource LabelTextVermelho }"/>
+                            <Label x:Name="sinopse" Style="{ StaticResource LabelTextBranco }"/>
+                        </StackLayout>
+
+                    </Grid>
+                </ScrollView>
+            </StackLayout>
+        </Grid>
+
+    </StackLayout>
+
 </ContentPage>
